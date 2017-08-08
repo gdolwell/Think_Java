@@ -1,0 +1,27 @@
+the trigonometric functions assume radians (sin, cosin, tan, etc), to convert from degrees to radians, you can divide by 180 and multiply by π.
+
+Math.PI = pi
+Math.E = e
+
+Math.toRadians()
+Math.toDegrees()
+
+Math.round()
+
+variable type: long
+
+Math.log() assumes natural log, base e.
+
+Math.pow(e, x): rasies e to the x
+
+class names should be capitalized
+
+method names should be camelCase
+
+/**
+* Comment Block
+*/
+
+// Inline Comment
+
+

@@ -1,0 +1,50 @@
+
+
+Java has three logical operators:
+&& and
+|| or
+!  not
+
+DeMorgan's Law
+!(A && B) == !A || !B
+
+
+If statements:
+
+if (x > 0) {
+    System.out.println("X is positive.");
+}   else if (x == 0) {
+        System.out.println("X is 0.");
+}   else {
+        System.out.println("X is less than 0.");
+}
+
+
+** Can be written with out braces for single statement, but is bad form:
+if (x > 0)
+    System.out.println("X is positive.");
+else
+    System.out.println("X is less than or equal to 0.");
+
+
+Data type boolean:
+
+boolean flag;
+flag = true;
+
+error checking:
+if (!in.hasNextDouble()) {
+String word = in.next();
+System.err.println(word + " is not a number");
+return;
+
+recursion:
+public static void countdown(int n) {
+if (n == 0) {
+System.out.println("Blastoff!");
+} else {
+System.out.println(n);
+countdown(n - 1);
+}
+}
+

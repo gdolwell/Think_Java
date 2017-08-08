@@ -1,0 +1,30 @@
+
+
+format inline printing:
+System.out.printf("%d in = %f cm\n", inch, cm);
+often ends with \n, newline character.
+
+common options:
+%d integer
+%08d integer padded with PRECEEDING zeros
+%f float
+%0.2f float rounded to two decimals
+%s sting
+
+force conversion:
+(int) x
+(float) y
+
+Parenthesis force operatuion before conversion
+(int) (x/ y)
+
+it is good practice to declare constants and variables at top of main.
+
+/**
+* lines of comments
+*/
+
+in.nextInt()
+in.nextLine()
+in.nextDouble()
+
