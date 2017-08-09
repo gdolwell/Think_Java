@@ -1,0 +1,36 @@
+Notes from Think Java by Allen Downey Chapter 6
+
+public static double calculateArea(double radius) {
+double result = Math.PI * radius * radius;
+return result;
+}
+
+public static {RETURN TYPE} methodName(){
+}
+
+incremental development:
+The key aspects of incremental development are:
+• Start with a working program and make small, incremental changes. At any
+point, if there is an error, you will know where to look.
+• Use variables to hold intermediate values so you can check them, either with
+print statements or by using a debugger.
+• Once the program is working, you can consolidate multiple statements into com‐
+pound expressions (but only if it does not make the program more difficult to
+read).
+
+overloading
+Having more than one method with the same name is called overloading, and it is legal in
+Java as long as each version takes different parameters.
+
+Javadoc tags generate html features
+/**
+* Tests whether x is a single digit integer.
+*
+* @param x the integer to test
+* @return true if x has one digit, false otherwise
+*/
+Methods with multiple parameters should have separate @param tags that describe
+each one. Void methods should have no @return tag, since they do not return a value.
+
+
+

@@ -1,0 +1,32 @@
+
+While statements:
+1. Evaluate the condition, yielding true or false .
+2. If the condition is false , skip the body and go to the next statement.
+3. If the condition is true , execute the body and go back to step 1.
+
+program development process called “encapsulation and generalization”. The steps are:
+1. Write a few lines of code in main or another method, and test them.
+2. When they are working, wrap them in a new method, and test again.
+3. If it’s appropriate, replace literal values with variables and parameters.
+The second step is called encapsulation; the third step is generalization.
+
+The format specifier %4d causes the output to align vertically, regardless.
+
+
+For Loops:
+public static void printTable(int rows) {
+	for (int i = 1; i <= rows; i = i + 1) {
+		printRow(i, rows);
+	}
+}
+
+for loops have three components in parentheses, separated by semicolons: the initial‐
+izer, the condition, and the update.
+1. The initializer runs once at the very beginning of the loop.
+2. The condition is checked each time through the loop. If it is false , the loop ends.
+Otherwise, the body of the loop is executed (again).
+3. At the end of each iteration, the update runs, and we go back to step 2.
+
+While and For loops evaluate before an iteration. Do-While loops are guarenteed to execute once before they evaluate for the condition.
+
+
