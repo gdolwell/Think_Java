@@ -1,0 +1,28 @@
+Character literals, like 'a' , appear in single quotes.
+
+Java uses Unicode to represent characters
+
+strings are immutable
+
+the == operator checks whether the two variables refer to the same object (by comparing the ref‐
+erences)
+
+the elements of args are strings
+
+fruit.charAt(0)
+text.replace("Computer Science", "CS")
+fruit.charAt(i)
+for (char letter : fruit.toCharArray())
+fruit.substring(0)
+fruit.substring(0, 3)
+fruit.indexOf('a')
+fruit.indexOf('a', 2)
+if (name1.equals(name2))
+int diff = name1.compareTo(name2)
+Integer.toString
+
+
+%02d means “two digit integer padded with
+zeros”
+
+
