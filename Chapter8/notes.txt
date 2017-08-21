@@ -1,0 +1,28 @@
+An array is a sequence of values; the values in the array are called elements. You can
+make an array of int s, double s, or any other type, but all the values in an array must
+have the same type.
+
+int[] counts;
+double[] values;
+counts = new int[4];
+values = new double[size];
+
+int[] counts = new int[4];
+double[] values = new double[size];
+
+arrays are intialized at 0, 1, 2... n.
+
+System.out.println(Arrays.toString(a));
+And the output is:
+[1, 2, 3, 4]
+
+Java aliases arrays.
+if a = [1, 2, 3]
+and b = a, b != [1, 2, 3], b = a.
+
+a.length returns the length of an array.
+
+enhanced for loop
+for (int value : values) {
+System.out.println(value);
+}
