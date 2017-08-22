@@ -1,0 +1,13 @@
+import java.awt.Point;
+
+Point blank;
+blank = new Point(3, 4);
+
+import java.awt.Rectangle;
+
+Rectangle box = new Rectangle(0, 0, 100, 200);
+Rectangle box = new Rectangle(0, 0, 100, 200);
+box.x = box.x + 50;
+box.y = box.y + 100;
+
+
