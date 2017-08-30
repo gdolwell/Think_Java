@@ -1,0 +1,8 @@
+When you create a new class the first step is to declare the instance variables and write constructors. A good next step is to write toString().
+
+String[] suits = {"Clubs", "Diamonds", "Hearts", "Spades"};
+
+String[] ranks = {null, "Ace", "2", "3", "4", "5", "6", "7", "8", "9",
+    "10", "Jack", "Queen", "King"};
+
+
